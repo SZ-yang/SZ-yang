@@ -175,46 +175,10 @@ ggsave(p13, file="SRR8731670.eps", device="eps")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+#concat all plots
 library(ggpubr)
 ptotal <- ggarrange(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13)
 ptotal
 ggsave(ptotal, file="all_plots.eps", device="eps")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
